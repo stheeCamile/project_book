@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir Livro</title>
+</head>
+
+<body>
+    <h2>Inserir Livro</h2>
+    <form action="/insert_book" method="post">
+        <label for="book_name">Nome do Livro:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="release_date">Data de Lançamento:</label>
+        <input type="text" id="release_date" name="release_date" required><br><br>
+        <label for="isbn">ISBN:</label>
+        <input type="text" id="isbn" name="isbn" required><br><br>
+        <label for="author">Autor:</label>
+        <input type="text" id="author" name="author" required><br><br>
+        <input type="submit" value="Inserir Livro">
+    </form>
+</body>
+
+</html>
